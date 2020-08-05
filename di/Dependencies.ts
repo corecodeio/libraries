@@ -5,7 +5,7 @@ import { InjectionKeyScope } from "./InjectionKeyScope";
 class Dependencies implements IDependencies {
   protected cache = new Map<string, any>();
 
-  provide<T>(injectionKey: InjectionKey<T>) {
+  provide<T>(injectionKey: InjectionKey<T>): T {
     switch (injectionKey.scope) {
       case InjectionKeyScope.singleton:
         let object = this.cache.get(injectionKey.name) as T;
