@@ -21,5 +21,8 @@
   "devDependencies": {
     "graphql": "^15.3.0",
     "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.11.0"
   }
 }
