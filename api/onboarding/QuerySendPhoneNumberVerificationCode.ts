@@ -1,6 +1,6 @@
 import gql from "graphql-tag";
 
-export const schema = gql`
+export const QuerySendPhoneNumberVerificationCode = gql`
   query SendPhoneNumberVerificationCode(
     $input: SendPhoneNumberVerificatioCodeInput!
   ) {
