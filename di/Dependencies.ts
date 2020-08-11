@@ -23,6 +23,16 @@ class Dependencies implements IDependencies {
     }
   }
 
+  override<T>(injectionKey: InjectionKey<T>, mock: T): void {
+    const object = this.cache.get(injectionKey.name) as T;
+
+    if (Boolean(object)) {
+      throw new Error("Object does not exist");
+    }
+
+    this.cache.set(injectionKey.name, mock);
+  }
+
   destroy() {
     this.cache.clear();
   }
