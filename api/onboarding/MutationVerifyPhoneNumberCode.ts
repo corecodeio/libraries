@@ -1,9 +1,9 @@
-import gql from 'graphql-tag';
+import gql from "graphql-tag";
 
 export const MutationVerifyPhoneNumberCode = gql`
-	mutation VerifyPhoneNumberCode($input: VerifyPhoneNumberCodeInput!) {
-		verifyPhoneNumberCode(input: $input) {
-			token
-		}
-	}
+  mutation VerifyPhoneNumberCode($input: VerifyPhoneNumberCodeInput!) {
+    verifyPhoneNumberCode(input: $input) {
+      token
+    }
+  }
 `;

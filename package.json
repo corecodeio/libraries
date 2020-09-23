@@ -1,28 +1,28 @@
 {
-	"name": "@corecodeio/libraries",
-	"version": "1.0.7",
-	"description": "",
-	"author": "corecodeio",
-	"license": "ISC",
-	"main": "index.js",
-	"types": "index.d.ts",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/corecodeio/libraries"
-	},
-	"scripts": {
-		"publish:prepare": "npm run compile && cp package.json lib && cp .npmrc lib",
-		"clean": "rimraf lib",
-		"compile": "npm run clean && tsc"
-	},
-	"directories": {
-		"lib": "lib"
-	},
-	"devDependencies": {
-		"graphql": "^15.3.0",
-		"rimraf": "^3.0.2"
-	},
-	"dependencies": {
-		"graphql-tag": "^2.11.0"
-	}
+  "name": "@corecodeio/libraries",
+  "version": "1.0.7",
+  "description": "",
+  "author": "corecodeio",
+  "license": "ISC",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/corecodeio/libraries"
+  },
+  "scripts": {
+    "publish:prepare": "npm run compile && cp package.json lib && cp .npmrc lib",
+    "clean": "rimraf lib",
+    "compile": "npm run clean && tsc"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "graphql": "^15.3.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "graphql-tag": "^2.11.0"
+  }
 }
