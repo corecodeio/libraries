@@ -1,2 +1,2 @@
-export * from "./QuerySendPhoneNumberVerificationCode";
-export * from "./QueryVerifyPhoneNumberCode";
+export * from './MutationVerifyPhoneNumberCode';
+export * from './QuerySendPhoneNumberVerificationCode';
