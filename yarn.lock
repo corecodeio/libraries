@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+awesome-phonenumber@^2.39.0:
+  version "2.39.0"
+  resolved "https://registry.yarnpkg.com/awesome-phonenumber/-/awesome-phonenumber-2.39.0.tgz#7a6f3ef04df7e6168407ab73ac68a882e04ef5e7"
+  integrity sha512-GV1GZ/AZfsBU6EIYF4TlFhOuZus9IOT6wyVmFmFZvpUFCwsx8TRsyhEOhPxSUSdPgd/h4RehQmwgrWI/S26WKw==
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
